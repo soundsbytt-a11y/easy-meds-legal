@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Easy Meds Support</title>
+  <meta name="description" content="Support and contact information for the Easy Meds nursing pharmacology study app.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f8fafc;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --secondary: #64748b;
+      --border: #e2e8f0;
+      --action: #f43f5e;
+      --soft-action: #fff1f2;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #090d16;
+        --surface: #1e293b;
+        --text: #f1f5f9;
+        --secondary: #cbd5e1;
+        --border: #334155;
+        --action: #fb7185;
+        --soft-action: #3b2431;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    header { margin-bottom: 28px; }
+
+    .eyebrow {
+      color: var(--action);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 8px 0 10px;
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      letter-spacing: -0.05em;
+      line-height: 1;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+
+    p, li { color: var(--secondary); }
+    strong { color: var(--text); }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: clamp(20px, 5vw, 30px);
+      margin: 16px 0;
+    }
+
+    .contact {
+      background: var(--soft-action);
+      border-color: color-mix(in srgb, var(--action) 45%, transparent);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 13px 20px;
+      border-radius: 999px;
+      background: var(--action);
+      color: #ffffff;
+      font-weight: 750;
+      text-decoration: none;
+    }
+
+    ul { padding-left: 1.25rem; margin-bottom: 0; }
+    a { color: var(--action); }
+
+    footer {
+      margin-top: 30px;
+      color: var(--secondary);
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Easy Meds</div>
+      <h1>Support</h1>
+      <p>Help with Easy Meds, subscriptions, purchases, and app feedback.</p>
+    </header>
+
+    <section class="contact">
+      <h2>Contact support</h2>
+      <p>For app issues, purchase questions, feedback, or feature requests, email the Easy Meds support team.</p>
+      <a class="button" href="mailto:easymedsadmin@gmail.com?subject=Easy%20Meds%20Support">Email easymedsadmin@gmail.com</a>
+    </section>
+
+    <section>
+      <h2>Before contacting us</h2>
+      <p>Please include your device model, iOS version, Easy Meds app version, and a short description of what happened. Do not include patient information or other sensitive health information.</p>
+    </section>
+
+    <section>
+      <h2>Subscriptions and free trials</h2>
+      <p>Easy Meds subscriptions are billed and managed by Apple. To view, change, or cancel a subscription, open <strong>Settings</strong> on your device, tap your name, then tap <strong>Subscriptions</strong>.</p>
+      <p>Trials and subscriptions automatically renew unless cancelled through Apple before the renewal date shown in your subscription settings.</p>
+    </section>
+
+    <section>
+      <h2>Restore a purchase</h2>
+      <p>Open the Easy Meds subscription screen and tap <strong>Restore Purchases</strong>. Confirm that the device is signed in with the same Apple Account used for the original purchase.</p>
+    </section>
+
+    <section>
+      <h2>Educational-use notice</h2>
+      <p>Easy Meds is designed strictly for educational study and reference purposes. It should not be used to replace professional medical judgment or direct patient care.</p>
+    </section>
+
+    <section>
+      <h2>Privacy and legal information</h2>
+      <p>Read the Easy Meds privacy policy, medical disclaimer, data practices, and content-source information.</p>
+      <a href="./">View Privacy Policy &amp; Medical Disclaimer</a>
+    </section>
+
+    <footer>© 2026 Easy Meds. Support email: easymedsadmin@gmail.com</footer>
+  </main>
+</body>
+</html>
