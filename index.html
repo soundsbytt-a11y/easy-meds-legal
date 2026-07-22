@@ -3,179 +3,226 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Easy Meds Privacy Policy & Medical Disclaimer</title>
-  <meta name="description" content="Privacy policy, medical disclaimer, and content methodology for the Easy Meds nursing pharmacology study app.">
-  <style>
-    :root {
-      color-scheme: light dark;
-      --background: #f8fafc;
-      --surface: #ffffff;
-      --text: #0f172a;
-      --secondary: #64748b;
-      --border: #e2e8f0;
-      --action: #f43f5e;
-      --soft-action: #fff1f2;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --background: #090d16;
-        --surface: #1e293b;
-        --text: #f1f5f9;
-        --secondary: #cbd5e1;
-        --border: #334155;
-        --action: #fb7185;
-        --soft-action: #3b2431;
-      }
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      background: var(--background);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.65;
-    }
-
-    main {
-      width: min(860px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 56px 0 72px;
-    }
-
-    header { margin-bottom: 28px; }
-
-    .eyebrow {
-      color: var(--action);
-      font-size: 0.82rem;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    h1 {
-      margin: 8px 0 10px;
-      font-size: clamp(2.2rem, 7vw, 4.6rem);
-      letter-spacing: -0.05em;
-      line-height: 1;
-    }
-
-    h2 {
-      margin: 0 0 12px;
-      font-size: 1.25rem;
-      letter-spacing: -0.02em;
-    }
-
-    p, li { color: var(--secondary); }
-    strong { color: var(--text); }
-
-    .date { margin: 0; color: var(--secondary); }
-
-    .disclaimer, section {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: clamp(20px, 5vw, 30px);
-      margin: 16px 0;
-    }
-
-    .disclaimer {
-      background: var(--soft-action);
-      border-color: color-mix(in srgb, var(--action) 45%, transparent);
-    }
-
-    .disclaimer h2 { color: var(--action); }
-    .disclaimer p { color: var(--text); font-weight: 650; }
-
-    ul { padding-left: 1.25rem; margin-bottom: 0; }
-    a { color: var(--action); }
-
-    footer {
-      margin-top: 30px;
-      color: var(--secondary);
-      font-size: 0.92rem;
-    }
-  </style>
+  <meta name="theme-color" content="#f8fafc">
+  <title>Easy Meds — Nursing Pharmacology, Made Easier</title>
+  <meta name="description" content="Master nursing medications with bite-sized learning paths, focused flashcards, on-the-go quizzes, and a searchable medication library.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Easy Meds — Nursing Pharmacology, Made Easier">
+  <meta property="og:description" content="Nursing pharmacology, one quick lesson at a time.">
+  <meta property="og:image" content="https://soundsbytt-a11y.github.io/easy-meds-legal/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Easy Meds — Nursing Pharmacology, Made Easier">
+  <meta name="twitter:description" content="Nursing pharmacology, one quick lesson at a time.">
+  <meta name="twitter:image" content="https://soundsbytt-a11y.github.io/easy-meds-legal/og.png">
+  <link rel="icon" href="app-icon.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <header>
-      <div class="eyebrow">Easy Meds</div>
-      <h1>Privacy Policy & Medical Disclaimer</h1>
-      <p class="date">Effective July 15, 2026</p>
-    </header>
-
-    <div class="disclaimer">
-      <h2>Educational use only</h2>
-      <p>This app is designed strictly for educational study and reference purposes. It should not be used to replace professional medical judgment or direct patient care.</p>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Easy Meds home">
+        <img src="app-icon.png" alt="" width="44" height="44">
+        <span>Easy Meds</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#screenshots">See the app</a>
+        <a href="#pricing">Pricing</a>
+        <a href="support.html">Support</a>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6791787785">View on the App Store</a>
+      </nav>
     </div>
+  </header>
 
-    <section>
-      <h2>Medical disclaimer</h2>
-      <p>Easy Meds is a nursing pharmacology study aid. It does not diagnose, treat, prescribe, calculate patient-specific doses, or provide clinical decision support. Medication information may be incomplete, simplified, outdated, or unsuitable for a particular patient.</p>
-      <p>Always verify information using current official drug references, institutional policy, the medication order, and a qualified healthcare professional. Never delay emergency care or make a patient-care decision based only on this app. Contact local emergency services for an emergency.</p>
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span> Built for nursing students</div>
+        <h1>Medication study that finally feels manageable.</h1>
+        <p class="hero-lead">Learn pharmacology one quick lesson at a time with guided paths, premium flashcards, focused quizzes, and a searchable drug library.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://apps.apple.com/app/id6791787785">Get Easy Meds</a>
+          <a class="button button-secondary" href="#screenshots">Explore the app</a>
+        </div>
+        <p class="launch-note">Available for iPhone and iPad. App Store availability may vary by region.</p>
+        <div class="hero-metrics" aria-label="Easy Meds content">
+          <div><strong>240</strong><span>medications</span></div>
+          <div><strong>48</strong><span>short lessons</span></div>
+          <div><strong>9</strong><span>learning paths</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Easy Meds app preview">
+        <div class="hero-glow"></div>
+        <div class="phone-frame">
+          <img src="home.png" alt="Easy Meds dashboard showing medication review, progress, and study categories">
+        </div>
+        <div class="floating-note floating-note-top"><span>✦</span> Bite-sized lessons</div>
+        <div class="floating-note floating-note-bottom"><span>♥</span> Built for your routine</div>
+      </div>
     </section>
 
-    <section>
-      <h2>Data collection</h2>
-      <p>Easy Meds does not require an account and does not transmit personal information or study activity to developer-operated servers. The current version contains no third-party advertising or analytics SDKs, does not access HealthKit, and does not collect patient health information.</p>
-      <p>Easy Meds does not sell, rent, or share user information.</p>
+    <section class="trust-strip" aria-label="Easy Meds benefits">
+      <div class="section-shell trust-grid">
+        <p><span>✓</span> Study in minutes</p>
+        <p><span>✓</span> Organize by body system</p>
+        <p><span>✓</span> Review at your own pace</p>
+        <p><span>✓</span> Designed for nursing learners</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Information stored on your device</h2>
-      <p>The app stores the following information locally on your device so its features work:</p>
-      <ul>
-        <li>Nickname and appearance preference</li>
-        <li>Favorites, XP, streaks, achievements, and lesson progress</li>
-        <li>An optional profile photo selected by you</li>
-      </ul>
-      <p>This information is not uploaded by Easy Meds.</p>
+    <section id="features" class="section-shell section-block">
+      <div class="section-heading centered">
+        <div class="eyebrow">Everything in one place</div>
+        <h2>Learn it. Review it. Remember it.</h2>
+        <p>Easy Meds turns a huge subject into focused study sessions you can finish between classes, on a commute, or before your next exam.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-card-wide">
+          <div class="feature-icon">⌁</div>
+          <div>
+            <span class="card-label">Guided learning</span>
+            <h3>Follow a clear path</h3>
+            <p>Move through concise lessons by body system, from core concepts to nursing checks and quick knowledge reviews.</p>
+          </div>
+          <div class="mini-path" aria-hidden="true">
+            <span class="path-step complete">✓</span><i></i><span class="path-step active">2</span><i></i><span class="path-step">3</span>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">▤</div>
+          <span class="card-label">Premium flashcards</span>
+          <h3>Review the facts that matter</h3>
+          <p>Flip through mechanisms, side effects, patient teaching, and NCLEX pearls without digging through a wall of text.</p>
+        </article>
+        <article class="feature-card dark-card">
+          <div class="feature-icon">◎</div>
+          <span class="card-label">Smart practice</span>
+          <h3>Quiz on the go</h3>
+          <p>Choose a complete path or focus on a single lesson, then track correct answers and XP as you improve.</p>
+        </article>
+        <article class="feature-card feature-card-wide library-card">
+          <div class="library-copy">
+            <div class="feature-icon">⌕</div>
+            <span class="card-label">Drug library</span>
+            <h3>Find a medication fast</h3>
+            <p>Search by generic name, brand, drug class, category, or use. Save favourites for quick review later.</p>
+          </div>
+          <div class="search-demo" aria-hidden="true">
+            <div class="search-bar">⌕ &nbsp; Search medications</div>
+            <div class="med-row"><b>Metoprolol</b><span>Beta Blocker</span></div>
+            <div class="med-row"><b>Furosemide</b><span>Loop Diuretic</span></div>
+            <div class="med-row"><b>Amoxicillin</b><span>Penicillin Antibiotic</span></div>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <h2>Subscriptions and payments</h2>
-      <p>Easy Meds subscriptions are purchased and managed through Apple's App Store using StoreKit. Apple processes payment and billing information. Easy Meds does not receive or store your full payment-card details.</p>
-      <p>The app receives transaction and subscription-entitlement information from Apple only as needed to unlock paid access and restore purchases. Free trials and subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period. You can manage or cancel them in your Apple Account subscription settings.</p>
+    <section id="screenshots" class="showcase-section">
+      <div class="section-shell section-block">
+        <div class="section-heading split-heading">
+          <div>
+            <div class="eyebrow">Designed to keep you moving</div>
+            <h2>Your study session, simplified.</h2>
+          </div>
+          <p>Clear navigation, focused screens, dark mode, and a consistent learning flow make it easy to pick up where you left off.</p>
+        </div>
+        <div class="screenshot-row">
+          <figure><img src="learn.png" alt="Easy Meds guided learning paths and medication categories"><figcaption>Choose a learning path</figcaption></figure>
+          <figure class="featured-shot"><img src="flashcards.png" alt="Easy Meds interactive nursing medication flashcard"><figcaption>Review with premium flashcards</figcaption></figure>
+          <figure><img src="quiz.png" alt="Easy Meds nursing pharmacology quiz"><figcaption>Test yourself anywhere</figcaption></figure>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Profile photos</h2>
-      <p>If you choose a profile photo, Apple's photo picker gives Easy Meds access only to the image you select. The app creates a resized copy and stores it locally for your profile. Easy Meds does not upload the photo. You can remove it from the Profile screen.</p>
+    <section class="section-shell section-block learning-section">
+      <div class="section-heading centered narrow-heading">
+        <div class="eyebrow">Made for the way you learn</div>
+        <h2>Nine paths. One calmer study plan.</h2>
+      </div>
+      <div class="category-cloud" aria-label="Study categories">
+        <span>♥ Cardiovascular</span><span>◉ Respiratory</span><span>✚ Antibiotics</span><span>● Endocrine</span><span>◌ Neurology</span><span>◆ Pain Management</span><span>≈ Renal</span><span>✦ Emergency</span><span>◇ Gastrointestinal</span>
+      </div>
     </section>
 
-    <section>
-      <h2>Retention and deletion</h2>
-      <p>Local preferences and progress remain on the device until you change them, reset them through available app controls, or delete the app. Removing Easy Meds deletes its locally stored app data, subject to the device's backup and restore settings managed by Apple.</p>
-      <p>Because Easy Meds does not operate a user-account server, there is no server-side account or personal-data record to delete.</p>
+    <section id="pricing" class="pricing-section">
+      <div class="section-shell section-block">
+        <div class="section-heading centered narrow-heading">
+          <div class="eyebrow">Easy Meds Premium</div>
+          <h2>Choose the rhythm that works for you.</h2>
+          <p>Every plan unlocks the complete learning experience, including all paths, flashcards, quizzes, XP tracking, and the full medication library.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <span class="plan-name">Monthly</span>
+            <div class="price"><strong>$10.99</strong><span>/ month</span></div>
+            <p>Flexible access for focused study periods.</p>
+          </article>
+          <article class="price-card featured-price">
+            <span class="popular-badge">Most popular</span>
+            <span class="plan-name">Quarterly</span>
+            <div class="price"><strong>$29</strong><span>/ 3 months</span></div>
+            <p>A balanced plan for a full course term.</p>
+          </article>
+          <article class="price-card">
+            <span class="plan-name">Yearly</span>
+            <div class="price"><strong>$115.99</strong><span>/ year</span></div>
+            <p>Keep your medication library all year.</p>
+          </article>
+        </div>
+        <div class="trial-callout">
+          <div><span class="trial-icon">3</span></div>
+          <div><strong>Start with a 3-day introductory trial</strong><p>Available to eligible new subscribers. Cancel through your Apple Account subscription settings.</p></div>
+          <a class="button button-primary" href="https://apps.apple.com/app/id6791787785">View plans in the app</a>
+        </div>
+        <p class="pricing-note">Prices shown in CAD. Apple displays final localized pricing and introductory-offer eligibility before purchase. Subscriptions automatically renew unless cancelled through Apple at least 24 hours before renewal.</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Sources and methodology</h2>
-      <p>Medication concepts were selected and summarized from instructor-provided PNM 300 pharmacology lecture materials (2026), covering CNS, cardiovascular, renal, gastrointestinal, endocrine, pain, antimicrobial, and respiratory medications.</p>
-      <p><strong>Principal textbook identified in the course materials:</strong><br>Sealock, K., Seneviratne, L., Lilley, L. L., &amp; Snyder, J. S. (2020). <em>Pharmacology for Canadian Healthcare Practice</em> (4th Canadian ed.). Elsevier.</p>
-      <p>The source material was reorganized into short lessons, medication summaries, flashcards, and quiz questions for study. Easy Meds is not affiliated with or endorsed by the course institution, the textbook authors, or Elsevier.</p>
+    <section class="section-shell section-block disclaimer-section">
+      <div class="disclaimer-card">
+        <div class="disclaimer-icon">!</div>
+        <div>
+          <span class="card-label">Important medical disclaimer</span>
+          <h2>Study support—not patient-care guidance.</h2>
+          <p>Easy Meds is designed strictly for educational study and reference purposes. It should not be used to replace professional medical judgment or direct patient care.</p>
+          <a href="privacy.html">Read the full disclaimer and privacy policy →</a>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Accuracy and updates</h2>
-      <p>Pharmacology guidance, product information, and institutional policies change. Easy Meds does not guarantee that every entry is complete, current, or error-free. Users should compare study content with current product monographs, authoritative references, and their own institution's policies.</p>
+    <section class="final-cta section-shell">
+      <img src="app-icon.png" alt="Easy Meds app icon" width="104" height="104">
+      <div><div class="eyebrow">Ready when you are</div><h2>Make the next medication feel easier.</h2><p>Open a five-minute lesson, review a focused deck, or quiz yourself wherever your day takes you.</p></div>
+      <a class="button button-primary" href="https://apps.apple.com/app/id6791787785">Get Easy Meds</a>
     </section>
-
-    <section>
-      <h2>Children's privacy</h2>
-      <p>Easy Meds is intended for nursing learners and is not directed to children under 13. The app does not knowingly collect personal information from children.</p>
-    </section>
-
-    <section>
-      <h2>Contact and policy changes</h2>
-      <p>For privacy, content, or support questions, contact the developer using the Support URL provided on the Easy Meds App Store listing.</p>
-      <p>This policy may be updated when app features or data practices change. The effective date at the top identifies the current version.</p>
-    </section>
-
-    <footer>© 2026 Easy Meds. Educational study and reference only.</footer>
   </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-grid">
+      <div>
+        <a class="brand" href="#top"><img src="app-icon.png" alt="" width="38" height="38"><span>Easy Meds</span></a>
+        <p>Nursing pharmacology, one quick lesson at a time.</p>
+      </div>
+      <div><strong>Explore</strong><a href="#features">Features</a><a href="#screenshots">Screenshots</a><a href="#pricing">Pricing</a></div>
+      <div><strong>Help</strong><a href="support.html">Support</a><a href="mailto:easymedsadmin@gmail.com">Contact</a><a href="https://apps.apple.com/account/subscriptions">Manage subscription</a></div>
+      <div><strong>Legal</strong><a href="privacy.html">Privacy & disclaimer</a><a href="terms.html">Terms of use</a></div>
+    </div>
+    <div class="section-shell footer-bottom"><span>© 2026 Easy Meds</span><span>Educational study and reference only.</span></div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector('.menu-button');
+    const nav = document.querySelector('.primary-nav');
+    menuButton?.addEventListener('click', () => {
+      const open = menuButton.getAttribute('aria-expanded') === 'true';
+      menuButton.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('open', !open);
+    });
+    nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      menuButton?.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('open');
+    }));
+  </script>
 </body>
 </html>
